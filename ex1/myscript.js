@@ -51,6 +51,6 @@ $(document).ready(function() {
 
 
     // every second and third p element
-    $("p:nth-child(n+3)").css("background-color", "yellow");
+    $("p:nth-child(n+2)").css("background-color", "yellow");
 
 });
