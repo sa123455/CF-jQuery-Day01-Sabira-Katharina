@@ -7,15 +7,14 @@ $(document).ready(function(){
 
 
 
-    for (i=0; i<familyAlbum.length; i++){
+    for (var i=0; i<familyAlbum.length; i++){
         var familyPhoto = familyAlbum[i].img;
-        //console.log(familyPhoto);
-        $("#mainDiv").append(familyPhoto);
-
+        console.log(familyPhoto);
+        $("#mainDiv").append(`<div><img src='${familyPhoto}'></div>`);
     }
 
 
-
+    
 
 
 
