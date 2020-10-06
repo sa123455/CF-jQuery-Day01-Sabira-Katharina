@@ -3,11 +3,13 @@ console.table(familyAlbum);
 
 
 
-$(document).ready(function(){
+$(document).ready(function() {
 
 
 
-    for (i=0; i<familyAlbum.length; i++){
+    for (i = 0; i < familyAlbum.length; i++) {
+        //<div src= familyPhoto></div>
+
         var familyPhoto = familyAlbum[i].img;
         //console.log(familyPhoto);
         $("#mainDiv").append(familyPhoto);
@@ -21,4 +23,3 @@ $(document).ready(function(){
 
 
 })
-
